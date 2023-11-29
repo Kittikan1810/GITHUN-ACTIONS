@@ -1,37 +1,7 @@
-# Notes
+# mygitactions
 
-## GitHub for Everyone
-NodeJS: [Download](https://nodejs.org/en/download/)
+This is for the YouTube Tutorial: <https://www.youtube.com/watch?v=mFFXuXjVgkU>
 
-## Setup firebase tools
+## Updates
+Fix: Changed SuperLinter from v3 to v4 to fix the error `[FATAL] Failed to view version file:[/action/lib/functions/linterVersions.txt]`
 
-```bash
- npm install -g firebase-tools
-```
-
-## Create firebase hosting project
-
-```bash
-firebase init hosting
-```
-
-## Create firebase function project
-
-```bash
-firebase init function
-```
-
-## Android
-
-- ./android
-- .github/workflows/android.yml
-
-## Backend
-
-- ./backend
-- .github/workflows/backend.yml
-
-## Frontend
-
-- ./frontend
-- .github/workflows/frontend.yml
